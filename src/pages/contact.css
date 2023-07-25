@@ -1,0 +1,107 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #37423D;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .photo-section img {
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .map-container {
+    margin-bottom: 20px;
+  }
+
+  .map-container iframe{
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    color: #007bff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold
+  }  
+ /* (document).ready(function() {
+    var owlCarousel = $('.owl-carousel');
+  
+    owlCarousel.owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+      });
+    owlCarousel.on('click', '.owl-item', function(event) {
+      var currentIndex = $(this).index();
+      owlCarousel.trigger('to.owl.carousel', currentIndex);
+      });
+    }); */
