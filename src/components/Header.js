@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import logo from "../logo.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 
-                                <Link className="nav-Link" to="/Gallery">Gallery</Link>
+                                <Link className="nav-Link" to="/gallery">Gallery</Link>
                             </li>
                             <li className="nav-item">
                                 

@@ -1,0 +1,107 @@
+#gallery {
+  background-color: #37423d;
+  color: #fff;
+}
+
+.hero {
+  background: url("..//img-gallery/timothy-dykes-Lq1rOaigDoY-unsplash.jpg")
+    no-repeat center 80%;
+  background-size: cover;
+  height: 60vh;
+  margin-bottom: 120px;
+}
+.hero-header {
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-description {
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  width: 60%;
+}
+.hero-header {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+}
+.image-block {
+  border: 4px solid #37423d;
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: bottom;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.image-block:hover .child,
+.image-block:focus .child {
+  transform: scale(1.2);
+}
+.img1 {
+  background: url("..//img-gallery/nick-hillier-xBXF9pr6LQo-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img2 {
+  background: url("..//img-gallery/monica-di-loxley-pJLmctCUmW0-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img3 {
+  background: url("..//img-gallery/meritt-thomas-2UsNF4Az-Ko-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img4 {
+  background: url("..//img-gallery/marco-montero-pisani-5qTxX7nicco-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img5 {
+  background: url("..//img-gallery/jon-parry-C8eSYwQkwHw-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img6 {
+  background: url("..//img-gallery/fred-moon-0yqa0rMCsYk-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+.img7 {
+  background: url("..//img-gallery/adam-wilson-ANK5zq-g_-g-unsplash.jpg")
+    no-repeat center top;
+  background-size: cover;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-size: 38px !important;
+}
+.video {
+  margin-top: 120px;
+}
+.video-text {
+  width: 50%;
+}
+iframe {
+  width: 50%;
+  border-radius: 10px;
+}
