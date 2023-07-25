@@ -10,6 +10,12 @@
   height: 60vh;
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh;
+    margin-bottom: 80px;
+  }
+}
 .hero-header {
   color: #fff;
   font-size: 56px;
@@ -21,6 +27,11 @@
   font-size: 22px;
   font-weight: normal;
   width: 60%;
+}
+@media (max-width: 768px) {
+  .hero-description {
+    width: 90%;
+  }
 }
 .hero-header {
   color: #fff;
@@ -34,7 +45,6 @@
   height: 400px;
   width: 300px;
   overflow: hidden;
-  text-align: center;
   vertical-align: bottom;
   cursor: pointer;
   border-radius: 10px;
@@ -43,8 +53,6 @@
 .child {
   height: 100%;
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -91,17 +99,53 @@
   background-size: cover;
 }
 
-h2 {
-  padding-bottom: 20px;
-  font-size: 38px !important;
-}
 .video {
   margin-top: 120px;
 }
+@media (max-width: 768px) {
+  .video {
+    margin-top: 80px;
+  }
+}
 .video-text {
   width: 50%;
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .video-text {
+    width: 100%;
+    padding: 0 0 40px 0;
+  }
+}
+.video-text h2 {
+  padding-bottom: 20px;
+  font-size: 38px !important;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .video-text h2 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+}
+
+.video-text p {
+  text-align: left;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .video-text p {
+    text-align: center;
+    padding: 0;
+    font-size: 18px !important;
+  }
 }
 iframe {
   width: 50%;
   border-radius: 10px;
+}
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
 }

@@ -36,7 +36,7 @@ const Gallery = () => {
             <div className="child img7"></div>
           </div>
         </div>
-        <div className="video d-flex flex-row justify-content-center align-items-center">
+        <div className="video d-flex flex-column flex-md-row  justify-content-center align-items-center">
           <div className="video-text">
             <h2>La musique de moment</h2>
             <p>
